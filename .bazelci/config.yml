@@ -1,4 +1,8 @@
----
+------
+platforms:
+  ubuntu1804:
+    shell_commands:
+    - python bazelisk.py version
 platforms:
   ubuntu1804:
     build_targets:
