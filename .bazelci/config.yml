@@ -4,7 +4,7 @@ platforms:
     shell_commands:
     - python bazelisk.py versionversion
 platforms:
-  ubuntu1804:
+  ubuntu1804:versionversion
     build_targets:
       - //...
     test_targets:
